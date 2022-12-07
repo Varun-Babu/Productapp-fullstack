@@ -1,0 +1,20 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3" *ngFor="let i of data">
+                        <div class="card" >
+                            <img src="https://w7.pngwing.com/pngs/1008/303/png-transparent-shopping-cart-icon-product-return-shopping-cart-retail-supermarket-objects.png" height="200" width="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{i.productName}}</h5>
+                              <p class="card-text">Price : {{i.price}}</p>
+                              <p class="card-text">Sold by : {{i.sellerName}}</p>
+                            </div>
+                          </div>
+                    </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
